@@ -42,9 +42,4 @@ export default defineConfig({
 	build: {
 		outDir: "public",
 	},
-	test: {
-		globals: true,
-		environment: "jsdom",
-		setupFiles: "./src/test/setup.ts",
-	},
 });
